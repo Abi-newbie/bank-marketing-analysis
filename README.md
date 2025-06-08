@@ -1,4 +1,23 @@
 # bank-marketing-analysis
+## Project Overview
+This project analyzes a marketing campaign dataset from a Portuguese bank to predict whether a client will subscribe to a term deposit ('y' column).
+## Contents
+- final_script.py: Full Python code for EDA, modeling, trained Random Forest model, and evaluation.
+- README.md: Project overview and insights.
+- ## Models Used
+- Logistic Regression
+- Random Forest (final model)
+- ## Key Findings
+- **Most impactful features**: `duration`, `pdays`, `contact`, `month`
+- Clients with past contact success, specifically months those with longer call durations, had higher subscription rates.
+- ## Recommendations
+- Focus campaigns in months like May, August, and October.
+- Target clients with successful past contacts and longer engagement.
+- ## How to Run
+1. Clone the repo
+2. Install requirements
+3. Run final_script.py in any Python environment
+
 Data analysis, machine learning, and insights on a bank marketing dataset.
 ![Figure_1 confusion metrix](https://github.com/user-attachments/assets/eb4273bd-def8-447a-9355-1542401d0fc2)
 ![Figure_1 education tree map](https://github.com/user-attachments/assets/0f00a3e2-7f4e-43cb-85be-4746fb7d3c72)
